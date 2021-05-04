@@ -1,0 +1,5 @@
+print("Enter the numbers:")
+m = list(map(int, input().split(',')))
+t = tuple(m)
+print(m)
+print(t)
